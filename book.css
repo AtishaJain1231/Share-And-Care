@@ -1,0 +1,32 @@
+
+body{
+    background-color: #de0404;
+    font-family: "Open Sans";
+    font-size: 10px;
+    text-align: center;
+}
+.center{
+    margin: auto;
+    width: 100%;
+}
+
+/* .inputBox input{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color:var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border:var(--border);
+    border-radius: 5px;
+ } */
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+ }
+ .center .inputBox{
+    /* flex:1 1 41rem; */
+ }
+ 
